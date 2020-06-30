@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/resource_TexturedTriangle_RESOURCES.cpp
+Corrade/Corrade.h
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/Corrade/Corrade.h
+Corrade/Utility/Macros.h
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/Corrade/Utility/Macros.h
+Corrade/Utility/Resource.h
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/Corrade/Utility/Resource.h
+

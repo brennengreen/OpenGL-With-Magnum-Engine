@@ -1,0 +1,9 @@
+/home/drey/clion-2020.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/drey/Extra-Bin/magnum-bootstrap-base
+-- Found Corrade: /usr/include  found components: Main 
+-- Found Corrade: /usr/include  found components: Containers rc Utility 
+-- Found Magnum: /usr/include  found components: GL Shaders 
+-- Found Corrade: /usr/include  found components: Containers rc Utility PluginManager 
+-- Found Magnum: /usr/include  found components: GL Trade Sdl2Application 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/drey/Extra-Bin/magnum-bootstrap-base

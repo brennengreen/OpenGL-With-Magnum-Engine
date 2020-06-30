@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyApplication"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\cmake\;CMake Files\..\..\..\..\usr\share\cmake\Corrade\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/drey/Extra-Bin/magnum-bootstrap-base"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/drey/Extra-Bin/magnum-bootstrap-base"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/drey/Extra-Bin/magnum-bootstrap-base"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyApplication">
+				<Option output="/home/drey/Extra-Bin/magnum-bootstrap-base/src/MyApplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/drey/Extra-Bin/magnum-bootstrap-base/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add option="-DIMGUI_USER_CONFIG=&quot;Magnum/ImGuiIntegration/visibility.h&quot;"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/MagnumExternal/OpenGL"/>
+					<Add directory="/usr/include/imgui"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 MyApplication"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyApplication/fast">
+				<Option output="/home/drey/Extra-Bin/magnum-bootstrap-base/src/MyApplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/drey/Extra-Bin/magnum-bootstrap-base/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCORRADE_IS_DEBUG_BUILD"/>
+					<Add option="-DIMGUI_USER_CONFIG=&quot;Magnum/ImGuiIntegration/visibility.h&quot;"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/MagnumExternal/OpenGL"/>
+					<Add directory="/usr/include/imgui"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 MyApplication/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TexturedTriangle_RESOURCES-dependencies">
+				<Option working_dir="/home/drey/Extra-Bin/magnum-bootstrap-base/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 TexturedTriangle_RESOURCES-dependencies"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/drey/Extra-Bin/magnum-bootstrap-base/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/MyApplication.cpp">
+			<Option target="MyApplication"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/TexturedTriangleShader.cpp">
+			<Option target="MyApplication"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/TexturedTriangleShader.frag">
+			<Option target="TexturedTriangle_RESOURCES-dependencies"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/TexturedTriangleShader.h">
+			<Option target="MyApplication"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/TexturedTriangleShader.vert">
+			<Option target="TexturedTriangle_RESOURCES-dependencies"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/resource_TexturedTriangle_RESOURCES.cpp">
+			<Option target="MyApplication"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/resource_TexturedTriangle_RESOURCES.cpp.rule">
+			<Option target="MyApplication"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/stone.tga">
+			<Option target="TexturedTriangle_RESOURCES-dependencies"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/src/resources.conf">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/modules/FindCorrade.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/modules/FindImGui.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/modules/FindMagnum.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/modules/FindMagnumIntegration.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/modules/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/../../../../usr/share/cmake/Corrade/CorradeLibSuffix.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\cmake\Corrade\"/>
+		</Unit>
+		<Unit filename="/home/drey/Extra-Bin/magnum-bootstrap-base/../../../../usr/share/cmake/Corrade/UseCorrade.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\cmake\Corrade\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

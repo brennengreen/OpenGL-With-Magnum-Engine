@@ -1,0 +1,6 @@
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/CMakeFiles/MyApplication.dir
+/home/drey/Extra-Bin/magnum-bootstrap-base/cmake-build-debug/src/CMakeFiles/TexturedTriangle_RESOURCES-dependencies.dir

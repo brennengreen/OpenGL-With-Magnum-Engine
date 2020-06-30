@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+b83365d49773bffa20d17d002d164a2d src/resource_TexturedTriangle_RESOURCES.cpp
